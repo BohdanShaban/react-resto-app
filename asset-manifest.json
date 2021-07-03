@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-chat-app/static/css/main.9660e5b3.chunk.css",
-    "main.js": "/react-chat-app/static/js/main.357411f1.chunk.js",
-    "main.js.map": "/react-chat-app/static/js/main.357411f1.chunk.js.map",
-    "runtime~main.js": "/react-chat-app/static/js/runtime~main.163dfad8.js",
-    "runtime~main.js.map": "/react-chat-app/static/js/runtime~main.163dfad8.js.map",
-    "static/js/2.b7f52e28.chunk.js": "/react-chat-app/static/js/2.b7f52e28.chunk.js",
-    "static/js/2.b7f52e28.chunk.js.map": "/react-chat-app/static/js/2.b7f52e28.chunk.js.map",
-    "index.html": "/react-chat-app/index.html",
-    "precache-manifest.9c44f724a36fef006c560d79846dbc3a.js": "/react-chat-app/precache-manifest.9c44f724a36fef006c560d79846dbc3a.js",
-    "service-worker.js": "/react-chat-app/service-worker.js",
-    "static/css/main.9660e5b3.chunk.css.map": "/react-chat-app/static/css/main.9660e5b3.chunk.css.map",
-    "static/media/food-bg.jpg": "/react-chat-app/static/media/food-bg.698e5e80.jpg",
-    "static/media/shopping-cart-solid.svg": "/react-chat-app/static/media/shopping-cart-solid.701d6d1d.svg"
+    "main.css": "/react-resto-app/static/css/main.9660e5b3.chunk.css",
+    "main.js": "/react-resto-app/static/js/main.357411f1.chunk.js",
+    "main.js.map": "/react-resto-app/static/js/main.357411f1.chunk.js.map",
+    "runtime~main.js": "/react-resto-app/static/js/runtime~main.7d588882.js",
+    "runtime~main.js.map": "/react-resto-app/static/js/runtime~main.7d588882.js.map",
+    "static/js/2.b7f52e28.chunk.js": "/react-resto-app/static/js/2.b7f52e28.chunk.js",
+    "static/js/2.b7f52e28.chunk.js.map": "/react-resto-app/static/js/2.b7f52e28.chunk.js.map",
+    "index.html": "/react-resto-app/index.html",
+    "precache-manifest.db664d2a671ba4ed3f85220d096154c2.js": "/react-resto-app/precache-manifest.db664d2a671ba4ed3f85220d096154c2.js",
+    "service-worker.js": "/react-resto-app/service-worker.js",
+    "static/css/main.9660e5b3.chunk.css.map": "/react-resto-app/static/css/main.9660e5b3.chunk.css.map",
+    "static/media/food-bg.jpg": "/react-resto-app/static/media/food-bg.698e5e80.jpg",
+    "static/media/shopping-cart-solid.svg": "/react-resto-app/static/media/shopping-cart-solid.701d6d1d.svg"
   }
 }
