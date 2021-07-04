@@ -2,7 +2,7 @@
   "name": "resto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bohdanshaban.github.io/react-resto-app",
+  "homepage": "https://bohdanshaban.github.io/react-resto-app/",
   "dependencies": {
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
