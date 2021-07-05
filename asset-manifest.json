@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-resto-app/static/css/main.9660e5b3.chunk.css",
-    "main.js": "/react-resto-app/static/js/main.04b194ec.chunk.js",
-    "main.js.map": "/react-resto-app/static/js/main.04b194ec.chunk.js.map",
+    "main.js": "/react-resto-app/static/js/main.747f080f.chunk.js",
+    "main.js.map": "/react-resto-app/static/js/main.747f080f.chunk.js.map",
     "runtime~main.js": "/react-resto-app/static/js/runtime~main.7d588882.js",
     "runtime~main.js.map": "/react-resto-app/static/js/runtime~main.7d588882.js.map",
     "static/js/2.b0d916b4.chunk.js": "/react-resto-app/static/js/2.b0d916b4.chunk.js",
     "static/js/2.b0d916b4.chunk.js.map": "/react-resto-app/static/js/2.b0d916b4.chunk.js.map",
     "index.html": "/react-resto-app/index.html",
-    "precache-manifest.7fa268fdd3193883bdb07b1d637ade5a.js": "/react-resto-app/precache-manifest.7fa268fdd3193883bdb07b1d637ade5a.js",
+    "precache-manifest.f99b5531ff1facde4a6ff64fe5aabc2c.js": "/react-resto-app/precache-manifest.f99b5531ff1facde4a6ff64fe5aabc2c.js",
     "service-worker.js": "/react-resto-app/service-worker.js",
     "static/css/main.9660e5b3.chunk.css.map": "/react-resto-app/static/css/main.9660e5b3.chunk.css.map",
     "static/media/food-bg.jpg": "/react-resto-app/static/media/food-bg.698e5e80.jpg",
