@@ -2,7 +2,8 @@ const initState = {
     menu: [],
     loading: true,
     error: false,
-    selectedItems: []
+    selectedItems: [],
+    totalPrice: 0
 }
 
 
@@ -14,7 +15,7 @@ const reducer = (state = initState, action) => {
                 ...state, // !!!!!  SPREAD PREV STATE  !!!!!
                 menu: state.menu,
                 loading: true,
-                error: false
+                //error: false
             };
 
         case 'MENU_LOADED':
@@ -22,14 +23,14 @@ const reducer = (state = initState, action) => {
                 ...state, // !!!!!  SPREAD PREV STATE  !!!!!
                 menu: action.payload,
                 loading: false,
-                error: false
+                //error: false
             }
         
         case 'MENU_ERROR': 
             return {
                 ...state, // !!!!!  SPREAD PREV STATE  !!!!!
-                menu: state.menu,
-                loading: false,
+                // menu: state.menu,
+                // loading: false,
                 error: true
             }
 
@@ -50,12 +51,14 @@ const reducer = (state = initState, action) => {
                 selectedItems: [
                     ...state.selectedItems,
                     newItem
-                ]
+                ],
+                totalPrice: state.totalPrice + searchedItem.price
             }
         
             case 'ITEM_FROM_CART_DELETE': 
                 const idx = action.payload;
                 const searcheIdx = state.selectedItems.findIndex( item => item.id === idx);
+                const itemPrice = state.selectedItems[searcheIdx].price;
 
                 const before = state.selectedItems.slice(0, searcheIdx);
                 const after = state.selectedItems.slice(searcheIdx + 1);
@@ -63,7 +66,8 @@ const reducer = (state = initState, action) => {
 
                 return {
                     ...state, 
-                    selectedItems: newItems
+                    selectedItems: newItems,
+                    totalPrice: state.totalPrice - itemPrice
                 }
 
         default:

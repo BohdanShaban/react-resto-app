@@ -7,7 +7,7 @@ import {onItemFromCartDeleate} from '../../actions'
 const CartTable = ({selectedItems, onItemFromCartDeleate}) => {
     return (
         <>
-            <div className="cart__title">Ваш заказ:</div>
+            <div className="cart__title">Your Order:</div>
             <div className="cart__list">
 
                 {
