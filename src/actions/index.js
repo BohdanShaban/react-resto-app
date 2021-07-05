@@ -14,9 +14,15 @@ const menuError = () => {
         type: 'MENU_ERROR'
     }
 }
-const addedToCart = (id) => { 
+const addedToCart = (id) => {  
     return {
         type: 'ITEM_ADDED_TO_CART',
+        payload: id
+    }
+}
+const onItemFromCartDeleate = (id) => {  
+    return {
+        type: 'ITEM_FROM_CART_DELETE',
         payload: id
     }
 }
@@ -26,5 +32,6 @@ export {
     menuLoaded,
     menuRequested,
     menuError,
-    addedToCart
+    addedToCart,
+    onItemFromCartDeleate
 };

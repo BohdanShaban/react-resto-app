@@ -51,7 +51,7 @@ const reducer = (state = initState, action) => {
         case 'ITEM_ADDED_TO_CART': 
             const id = action.payload;
             const searchedItem = state.menu.find( item => item.id === id);
-            
+
             const newItem = {
                 title: searchedItem.title,
                 price: searchedItem.price,
@@ -67,6 +67,19 @@ const reducer = (state = initState, action) => {
                     newItem
                 ]
             }
+        
+            case 'ITEM_FROM_CART_DELETE': 
+                const idx = action.payload;
+                const searcheIdx = state.selectedItems.findIndex( item => item.id === idx);
+
+                const before = state.selectedItems.slice(0, searcheIdx);
+                const after = state.selectedItems.slice(searcheIdx + 1);
+                const newItems = [ ...before, ...after ]
+
+                return {
+                    ...state, 
+                    selectedItems: newItems
+                }
 
         default:
             return state;

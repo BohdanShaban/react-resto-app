@@ -2,6 +2,7 @@ import React from 'react';
 import './cart-table.scss';
 
 import {connect} from 'react-redux';
+import {onItemFromCartDeleate} from '../../actions'
 
 const CartTable = ({selectedItems, onItemFromCartDeleate}) => {
     return (
@@ -34,12 +35,8 @@ const mapStateToProps = ({selectedItems}) => {
         selectedItems
     }
 }
-const mapDispatchToProps = () => {
-    return {
-        onItemFromCartDeleate: (id) => {
-            console.log(`ID of Deleted Item:${id}`)
-        }
-    }
+const mapDispatchToProps = {
+    onItemFromCartDeleate
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(CartTable);
