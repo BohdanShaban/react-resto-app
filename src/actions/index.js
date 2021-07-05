@@ -9,14 +9,22 @@ const menuRequested = () => {
         type: 'MENU_REQUESTED'
     }
 }
-const menuError = () => {
+const menuError = () => { 
     return {
         type: 'MENU_ERROR'
     }
 }
+const addedToCart = (id) => { 
+    return {
+        type: 'ITEM_ADDED_TO_CART',
+        payload: id
+    }
+}
+
 
 export {
     menuLoaded,
     menuRequested,
-    menuError
+    menuError,
+    addedToCart
 };

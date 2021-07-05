@@ -4,7 +4,7 @@ import AppHeader from '../app-header';
 
 import Background from './food-bg.jpg';
 
-import {Route, Switch } from 'react-router-dom';
+import {Route} from 'react-router-dom'; // Switch
 
 
 const App = () => {
