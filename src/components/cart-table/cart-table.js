@@ -12,11 +12,11 @@ const CartTable = ({selectedItems, onItemFromCartDeleate}) => {
 
                 {
                     selectedItems.map( item => {
-                        const {src, title, price, id} = item;
+                        const {url, title, price, id} = item;
 
                         return(
-                            <div key={id} className="cart__item">
-                                <img src={src} className="cart__item-img" alt={title}></img>
+                            <div key={id} className="cart__item"> { /* !!! key = id !!! */ } 
+                                <img src={url} className="cart__item-img" alt={title}></img>
                                 <div className="cart__item-title">{title}</div>
                                 <div className="cart__item-price">{price}$</div>
                                 <div onClick={ () => onItemFromCartDeleate(id) } className="cart__close">&times;</div>

@@ -36,7 +36,7 @@ class MenuList extends Component {
             <ul className="menu__list">
                 {
                     menuItems.map( menuItem => {
-                        return <MenuListItem key={menuItem.id} item={menuItem} onAddToCart={ () => addedToCart(menuItem.id)}/> // !!!!!  key 
+                        return <MenuListItem key={menuItem.id} item={menuItem} onAddToCart={ () => addedToCart(menuItem.id) }/> // !!!!!  key 
                     })
                 }
             </ul>
