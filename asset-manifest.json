@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-resto-app/static/css/main.9660e5b3.chunk.css",
-    "main.js": "/react-resto-app/static/js/main.22fb0972.chunk.js",
-    "main.js.map": "/react-resto-app/static/js/main.22fb0972.chunk.js.map",
+    "main.js": "/react-resto-app/static/js/main.64bab805.chunk.js",
+    "main.js.map": "/react-resto-app/static/js/main.64bab805.chunk.js.map",
     "runtime~main.js": "/react-resto-app/static/js/runtime~main.7d588882.js",
     "runtime~main.js.map": "/react-resto-app/static/js/runtime~main.7d588882.js.map",
     "static/js/2.0695bd64.chunk.js": "/react-resto-app/static/js/2.0695bd64.chunk.js",
     "static/js/2.0695bd64.chunk.js.map": "/react-resto-app/static/js/2.0695bd64.chunk.js.map",
     "index.html": "/react-resto-app/index.html",
-    "precache-manifest.2cfd0660b0877ad3ca3e1f38896f615b.js": "/react-resto-app/precache-manifest.2cfd0660b0877ad3ca3e1f38896f615b.js",
+    "precache-manifest.779251fad665773003f2d9a92a794e0c.js": "/react-resto-app/precache-manifest.779251fad665773003f2d9a92a794e0c.js",
     "service-worker.js": "/react-resto-app/service-worker.js",
     "static/css/main.9660e5b3.chunk.css.map": "/react-resto-app/static/css/main.9660e5b3.chunk.css.map",
     "static/media/food-bg.jpg": "/react-resto-app/static/media/food-bg.698e5e80.jpg",
