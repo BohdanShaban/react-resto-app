@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abb3828433270028fba8406d71dc8d94",
+    "revision": "0bcf030776b649883f1b2ad8e2cdfaa0",
     "url": "/react-resto-app/index.html"
   },
   {
