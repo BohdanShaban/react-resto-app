@@ -59,4 +59,4 @@ const mapDispatchToProps = {
     addedToCart
 }
 
-export default WithRestoService()(connect(mapStateToProps, mapDispatchToProps)(MenuList));
+export default WithRestoService() (connect(mapStateToProps, mapDispatchToProps)(MenuList));

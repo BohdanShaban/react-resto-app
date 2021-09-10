@@ -18,7 +18,7 @@ ReactDOM.render(
     < Provider store= {store}>
         <ErrorBoundry>
             < RestoServiceContext.Provider value= {restoService}>
-                < HashRouter basename='/'>
+                < HashRouter basename={process.env.PUBLIC_URL} >  {/* !!!!!!!!!! */}
                 
                     <App/>
                 
