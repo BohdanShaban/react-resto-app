@@ -2,7 +2,9 @@
 export default class RestoService {
 
     url = 'http://localhost:3000/menu';
-    gitUrl = 'https://github.com/BohdanShaban/json-server_Fake_Back-End/blob/[main|master]/db.json'; // !!! For Fake Json-Serv
+    //gitUrl = 'https://github.com/BohdanShaban/json-server_Fake_Back-End/blob/[main|master]/db.json'; // !!! For Fake Json-Serv
+    gitUrl = 'https://my-json-server.typicode.com/BohdanShaban/json-server_Fake_Back-End/menu'; // !!! For Fake Json-Serv
+
 
     getMenuItems = async () => {
 
