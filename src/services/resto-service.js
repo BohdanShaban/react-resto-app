@@ -1,8 +1,7 @@
 
 export default class RestoService {
 
-    url = 'http://localhost:3000/menu';
-    //gitUrl = 'https://github.com/BohdanShaban/json-server_Fake_Back-End/blob/[main|master]/db.json'; // !!! For Fake Json-Serv
+    url = 'http://localhost:3000/menu'; // !!! For json-serv -> json-server src/db.json -> Localhost 3000
     gitUrl = 'https://my-json-server.typicode.com/BohdanShaban/json-server_Fake_Back-End/menu'; // !!! For Fake Json-Serv
 
 
